@@ -36,6 +36,10 @@ public class GridLayoutActivity extends Activity {
 					int position, long id) {
 				Intent intent = new Intent(GridLayoutActivity.this,
 						ImageViewActivity.class);
+				
+				Intent i = new Intent();
+				
+				
 				intent.putExtra(EXTRA_RES_ID, (int) id);
 				startActivity(intent);
 			}
